@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dancormier/react-native-swipeout.git"
+    "url": "git+ssh://git@github.com/ruinangel/react-native-swipeout.git"
   },
   "keywords": [
     "react-native",
@@ -19,13 +19,17 @@
     "swipe",
     "ui"
   ],
-  "author": "Dan Cormier",
+  "author": "Dan Cormier (Modified by Ge Shan)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dancormier/react-native-swipeout/issues"
+    "url": "https://github.com/ruinangel/react-native-swipeout/issues"
   },
-  "homepage": "https://github.com/dancormier/react-native-swipeout",
+  "homepage": "https://github.com/ruinangel/react-native-swipeout",
   "dependencies": {
-    "react-tween-state": "^0.1.5"
+    "react-tween-state": "^0.1.5",
+    "uv-tj": "^1.0.0"
+  },
+  "directories": {
+    "example": "example"
   }
 }
