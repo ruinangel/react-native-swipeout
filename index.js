@@ -105,7 +105,6 @@ const Swipeout = React.createClass({
     onOpen: PropTypes.func,
     right: PropTypes.array,
     scroll: PropTypes.func,
-    style: View.propTypes.style,
     sensitivity: PropTypes.number,
   },
 
